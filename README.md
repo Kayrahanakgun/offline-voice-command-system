@@ -38,7 +38,7 @@ project/
 ├── dataset.py
 ├── preprocessingArray.py
 ├── predictListen.py
-├── gui.py
+├── main.py
 ├── voice_model.pth
 └── data/
 File Descriptions
@@ -48,7 +48,7 @@ model.py	Defines the CNN architecture used for command classification.
 dataset.py	Handles loading and preparation of the training dataset.
 preprocessingArray.py	Performs audio preprocessing and feature extraction.
 predictListen.py	Handles microphone input and real-time command prediction.
-gui.py	Provides the graphical user interface for the recognition system.
+main.py	Provides the graphical user interface for the recognition system.
 voice_model.pth	Stores the trained PyTorch model parameters.
 data/	Contains the audio dataset used for training and evaluation.
 Audio Processing Pipeline
@@ -178,7 +178,7 @@ python train.py
 Run Real-Time Voice Recognition
 python predictListen.py
 Launch the GUI
-python gui.py
+python main.py
 
 Note: The exact execution sequence may depend on the project configuration and the location of the trained model and dataset.
 
