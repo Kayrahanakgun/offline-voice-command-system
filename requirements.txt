@@ -1,0 +1,11 @@
+torch==2.7.1
+torchvision
+torchaudio
+librosa
+numpy
+scipy
+noisereduce
+sounddevice
+soundfile
+matplotlib
+customtkinter
